@@ -1,0 +1,35 @@
+{
+  "$schema": "https://biomejs.dev/schemas/2.4.7/schema.json",
+  "files": {
+    "includes": [
+      "**",
+      "!!**/dist",
+      "!!**/coverage",
+      "!!**/.nx",
+      "!!**/out-tsc",
+      "!!**/package.json",
+      "!!**/__generated__",
+      "!!**/nx.json"
+    ],
+    "ignoreUnknown": true
+  },
+  "formatter": {
+    "bracketSpacing": true,
+    "enabled": true,
+    "expand": "auto",
+    "indentStyle": "space",
+    "indentWidth": 2,
+    "lineWidth": 100
+  },
+  "linter": {
+    "enabled": true,
+    "rules": {
+      "recommended": true
+    }
+  },
+  "css": {
+    "parser": {
+      "cssModules": true
+    }
+  }
+}
