@@ -7,9 +7,13 @@
     "format": "biome format .",
     "lint": "biome lint",
     "check": "biome check",
-    "ci": "biome ci"
+    "ci": "biome ci",
+    "test-rules": "node ./testIndividualRules.js"
   },
   "devDependencies": {
     "@biomejs/biome": "2.4.7"
+  },
+  "dependencies": {
+    "execa": "^9.6.1"
   }
 }
